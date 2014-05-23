@@ -50,11 +50,6 @@ module Jekyll
           # stores the image and returns image tag, if smiley is valid
           if SmileyExist($1)
             ImageStore($1)
-            if File.exist?(File.join(Dir.pwd, 'public/smileys/'+$1+'.png'))
-              puts 'y'
-            else
-              puts 'n'
-            end
             ImageTag($1)
           else
             ':'+$1+':'
