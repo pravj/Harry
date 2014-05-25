@@ -36,7 +36,7 @@ module Jekyll
 
     def Harry(text)
       # matches all :smiley: style text in content
-      text.to_str.gsub(/:([a-z0-9]+):/) do |match|
+      text.to_str.gsub(/:([a-z0-9\+\-_]+):/) do |match|
 
         # proposed image path, if image is locally available
         local_image = File.join(Dir.pwd, 'public', 'smileys', $1+'.png')
