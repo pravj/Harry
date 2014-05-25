@@ -72,7 +72,6 @@ module Jekyll
         if (match.include?('(') && match.include?(')'))
           animated = true
         end
-        puts animated
 
         # proposed image path, if image is locally available
 	if animated
@@ -81,23 +80,17 @@ module Jekyll
           local_image = File.join(Dir.pwd, 'public', 'smileys', 'general', $1 + '.png')
         end
 
-        puts local_image
-
         # returns image tag, if image locally exists
         if File.exist?(local_image)
-          puts 'file exists'
           ImageTag($1, animated)
 
         # image doesn't exists locally
         else
-          puts 'file don\'t exist'
           # stores the image and returns image tag, if smiley is valid
           if SmileyExist($1, animated)
-            puts 'smiley exists'
             ImageStore($1, animated)
             ImageTag($1, animated)
           else
-            puts 'smiley not exist'
             if animated
               '('+$1+')'
             else
@@ -111,6 +104,7 @@ module Jekyll
 
     # function that serves as a filter in outer world 
     def Harry(text)
+      CreateDirs()
       Process(text)
     end
 

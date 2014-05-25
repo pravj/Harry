@@ -24,7 +24,7 @@ for example, your sample blog post in `_posts/`
 
     ---
       layout: post
-      title: ""
+      title: Voldemort's Last Stand
     ---
       
       
@@ -76,7 +76,7 @@ it uses Skype notifications from 'http://www.emoticonhq.com/'
 
 Thanks
 ======
-Amanpreet Singh @apsdehal : for animated smiley concept
+[@apsdehal](https://github.com/apsdehal) : for animated smiley concept
 
 > I made Harry to have smiley support in my [Blog](https://pravj.github.io)
 
