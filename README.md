@@ -69,6 +69,15 @@ sample `post layout`
 
   `:tophat:` => :tophat:, `:imp:`=>:imp:, `:sunglasses:`=>:sunglasses:
 
+Animated Smiley
+===============
+you can use animated smileys also, just use with braces like `:(beer):` and it will change in <img src='http://www.emoticonhq.com/images/Skype/beer.gif' title='(beer)'>
+it uses Skype notifications from 'http://www.emoticonhq.com/'
+
+Thanks
+======
+Amanpreet Singh @apsdehal : for animated smiley concept
+
 > I made Harry to have smiley support in my [Blog](https://pravj.github.io)
 
 > :santa: : Now there will be smileys everywhere
