@@ -2,7 +2,7 @@ Harry
 =====
 jekyll plugin to have :smileys: in your blogs
 
-> Harry lets you use any smiley from the famous [emoji-cheat-sheet](https://emoji-cheat-sheet.com) in your Jekyll powered blog
+> Harry lets you use any smiley from the famous [emoji-cheat-sheet](http://www.emoji-cheat-sheet.com) in your Jekyll powered blog
 
 > Other side of Harry also supports animated smileys
 
